@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 10px;
+  background: #16222A;
+  background: -webkit-linear-gradient(to right, #18262e, #16222A);
+  background: linear-gradient(to right, #18262e, #16222A);
+  font-family: "Inter", sans-serif;
+}
+
+nav{
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+nav  ul{
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+nav ul a{
+  font-size: 1.25rem;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-primary{
+  color: white;
+  padding: 1.25rem 2rem;
+  background: #f2709c;
+  background: -webkit-linear-gradient(to right, #f2709c, #ff9472);
+  background: linear-gradient(to right, #f2709c, #ff9472);
+  border-radius: 0.5rem;
+}
+
+.start-hero{
+  height: 75vh;
+  width: calc(100% - 20rem);
+  display: grid;
+  padding: 0rem 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0rem;
+}
+
+.start-hero .hero-img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.start-hero .hero-img .img{
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1533162507191-d90c625b2640?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=480&q=70');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: center;
+}
+
+.start-hero .hero-content{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+
+.start-hero .hero-content h1{
+  color: white;
+  font-size: 12.5rem;
+  font-weight: 600;
+  letter-spacing: -0.35rem;
+  line-height: 13rem;
+}
+
+.hero-content h1 span{
+  color: transparent;
+  background: #f2709c;
+  background: -webkit-linear-gradient(to right, #f2709c, #ff9472);
+  background: linear-gradient(to right, #f2709c, #ff9472);
+  background-clip: text;
+}
+
+.hero-content p{
+  font-size: 2.25rem;
+  color: white;
+  letter-spacing: -0.025rem;
+}
